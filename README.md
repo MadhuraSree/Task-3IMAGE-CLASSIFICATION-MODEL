@@ -35,3 +35,8 @@ Source: torchvision.datasets.FashionMNIST (downloaded automatically)
 Images: 28x28 grayscale
 
 ## output:
+
+![Image](https://github.com/user-attachments/assets/bef158fd-d971-4a9f-99c9-d0645f60355e)
+
+![Image](https://github.com/user-attachments/assets/2c598673-b7af-40b0-b520-beaca4d1bbef)
+
