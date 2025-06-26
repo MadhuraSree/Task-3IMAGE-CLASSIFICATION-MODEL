@@ -13,7 +13,8 @@ MENTOR : NEELA SANTHOSH KUMAR
 Task 3 – CNN Image Classification with Fashion MNIST
  
 ## About the Project
-This project focuses on building a Convolutional Neural Network (CNN) model using PyTorch to classify images from the Fashion MNIST dataset. The model is also designed to predict classes for custom grayscale images (28×28 pixels), making it suitable for both academic and real-world applications.
+This project focuses on building a Convolutional Neural Network (CNN) model using PyTorch to classify images from the Fashion MNIST dataset. The model is also designed to predict classes for custom grayscale images (28×28 pixels), making it suitable for both academic and real-world applications.and the dataset has letters 
+output will be given in single letter of the requried image.
 
 This task is part of the CodTech IT Solutions Machine Learning Internship.# Task-3IMAGE-CLASSIFICATION-MODEL
 IMAGE CLASSIFICATION MODEL
