@@ -13,27 +13,65 @@ MENTOR : NEELA SANTHOSH KUMAR
 Task 3 – CNN Image Classification with Fashion MNIST
  
 ## About the Project
-This project focuses on building a Convolutional Neural Network (CNN) model using PyTorch to classify images from the Fashion MNIST dataset. The model is also designed to predict classes for custom grayscale images (28×28 pixels), making it suitable for both academic and real-world applications.and the dataset has letters 
-output will be given in single letter of the requried image.
 
-This task is part of the CodTech IT Solutions Machine Learning Internship.# Task-3IMAGE-CLASSIFICATION-MODEL
-IMAGE CLASSIFICATION MODEL
+This project focuses on building a Convolutional Neural Network (CNN) using PyTorch to classify images from the Fashion MNIST dataset. The model is trained to identify 10 categories of clothing items (like shirts, shoes, and bags) based on 28×28 grayscale images.
 
-Objectives
-Train a CNN model to classify Fashion MNIST images into 10 clothing categories
+The model is also capable of predicting labels for custom grayscale images, and displays the predicted output as a single character/class label (e.g., T-shirt = “T”).
 
-Apply transformations such as normalization, cropping, and augmentation
+This task is developed as part of the Machine Learning Internship by CodTech IT Solutions, demonstrating deep learning concepts in real-world image classification.
+
+## Objectives
+Train a CNN model to classify Fashion MNIST images into 10 categories
+
+Apply data preprocessing including normalization, random cropping, and horizontal flipping
 
 Evaluate model performance using accuracy and loss curves
 
-Load and classify custom input images using the trained model
+Load and predict custom 28×28 grayscale input images
 
-Dataset Description
+Display predicted output with visual confirmation
+
+## Dataset Description
+
 Dataset: Fashion MNIST
 
-Source: torchvision.datasets.FashionMNIST (downloaded automatically)
+Source: torchvision.datasets.FashionMNIST
 
-Images: 28x28 grayscale
+Format: 28x28 grayscale images
+
+Categories:
+['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat',
+ 'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']
+ 
+Automatic Download: Handled by PyTorch during training
+
+Prediction Output: Returns the class label for input image (e.g., "Sneaker")
+
+## Key Features
+
+✅ Load and preprocess dataset with augmentation
+
+✅ Define a custom CNN architecture with 3 convolutional layers
+
+✅ Train for 10 epochs using Adam optimizer
+
+✅ Plot and visualize accuracy and loss over epochs
+
+✅ Load custom .png images, resize to 28×28, and predict using the trained model
+
+✅ Display image and predicted label using matplotlib
+
+## Libraries Used
+
+torch	Deep learning framework
+
+torchvision	Load datasets and image transforms
+
+PIL	Image loading and conversion
+
+matplotlib	Accuracy/loss and prediction plots
+
+seaborn	Visual enhancements (optional)
 
 ## output:
 
